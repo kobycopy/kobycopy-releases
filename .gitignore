@@ -1,0 +1,10 @@
+# Installer binaries live here only to be uploaded as release assets.
+# They should never be committed to the repo tree.
+*.dmg
+*.exe
+*.msi
+*.pkg
+*.app.zip
+*.AppImage
+*.deb
+*.rpm

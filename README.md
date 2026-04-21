@@ -4,11 +4,11 @@ Public installer downloads for [KobyCopy](https://kobycopy.com), the desktop cop
 
 This repo hosts only compiled installers as release assets. The source code lives in a private repository.
 
-## Latest: v0.1.2
+## Latest: v0.1.4
 
-- **macOS (Apple Silicon, M1+)** — `KobyCopy_0.1.2_aarch64.dmg`
-- **macOS (Intel)** — `KobyCopy_0.1.2_x64.dmg`
-- **Windows (x64)** — `KobyCopy_0.1.2_x64-setup.exe`
+- **macOS (Apple Silicon, M1+)** — `KobyCopy_0.1.4_aarch64.dmg`
+- **macOS (Intel)** — `KobyCopy_0.1.4_x64.dmg`
+- **Windows (x64)** — `KobyCopy_0.1.4_x64-setup.exe`
 
 Download from the [Releases page](https://github.com/kobycopy/kobycopy-releases/releases).
 
@@ -17,11 +17,11 @@ Download from the [Releases page](https://github.com/kobycopy/kobycopy-releases/
 1. Build installers into this repo's working directory (`.dmg`, `.exe` files are gitignored so they won't accidentally be committed).
 2. Create and push a tag:
    ```
-   git tag v0.1.2
-   git push origin v0.1.2
+   git tag v0.1.4
+   git push origin v0.1.4
    ```
 3. On GitHub, go to **Releases → Draft a new release**, pick the tag, and drag the installer files in as assets.
 4. Publish. Download URLs follow the pattern:
    ```
-   https://github.com/kobycopy/kobycopy-releases/releases/download/v0.1.2/KobyCopy_0.1.2_aarch64.dmg
+   https://github.com/kobycopy/kobycopy-releases/releases/download/v0.1.4/KobyCopy_0.1.4_aarch64.dmg
    ```
